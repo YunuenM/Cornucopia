@@ -17,6 +17,7 @@ class IngredientController: UIViewController {
     @IBOutlet var ingredientFive: UITextField!
     @IBOutlet var content: UIView!
     @IBOutlet var scroll: UIScrollView!
+    @IBOutlet var button: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,8 @@ class IngredientController: UIViewController {
         //self.content.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor).isActive = true
         
         self.scroll.contentSize = content.frame.size
+        
+        Utilities.styleFilledButton(self.button)
         
         self.hideKeyboardWhenTappedAround()
     }

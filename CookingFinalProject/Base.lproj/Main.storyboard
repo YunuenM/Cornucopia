@@ -314,6 +314,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="1Id-Cy-whv"/>
                     <size key="freeformSize" width="414" height="896"/>
                     <connections>
+                        <outlet property="button" destination="ydo-k5-i4K" id="td7-9w-Qz6"/>
                         <outlet property="content" destination="oon-wk-OMg" id="MZm-uQ-byD"/>
                         <outlet property="ingredientFive" destination="MnB-om-JB2" id="311-SJ-q4B"/>
                         <outlet property="ingredientFour" destination="rcY-Ms-Uxz" id="9H3-cA-1B2"/>
@@ -330,7 +331,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="STb-4j-Z1y">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RiF-MI-u0O" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="homeViewController" automaticallyAdjustsScrollViewInsets="NO" id="RiF-MI-u0O" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pai-Bv-tpt">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
